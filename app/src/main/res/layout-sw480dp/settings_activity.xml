@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Settings"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/space" />
+
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/space2" />
+
+    <Space
+        android:layout_width="355dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/space"
+        android:id="@+id/space3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space3"
+        android:layout_toEndOf="@+id/space"
+        android:text="Connections"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/ipBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/space"
+        android:layout_toStartOf="@+id/space2"
+        android:ems="10"
+        android:hint="IP address"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Space
+        android:id="@+id/space4a"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ipBox"
+        android:layout_toEndOf="@+id/space"
+        android:layout_toStartOf="@+id/space2" />
+
+    <EditText
+        android:id="@+id/locX"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginTop="32dp"
+        android:layout_toStartOf="@+id/textView3"
+        android:ems="10"
+        android:hint="X"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/LocY"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/locX"
+        android:layout_alignBottom="@+id/locX"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:hint="Y"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/space2"
+        android:text="Save settings"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Back"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_toEndOf="@+id/space"
+        android:text="Insert IP address of KeRi box"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space4a"
+        android:layout_toEndOf="@+id/space"
+        android:text="Location"
+        android:textSize="36sp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/space" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_toEndOf="@+id/space"
+        android:text="Insert your location for Weather widget, if your location is not in the list then select custom and insert your coordinates. Coordinates have to have atleast 6 decimal places"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/locX"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="30"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locX"
+        android:layout_marginTop="44dp"
+        android:layout_toEndOf="@+id/space"
+        android:text="Refresh rate for weather widget to refresh. (Min)"
+        android:textSize="24sp" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "918411132742",
+    "firebase_url": "https://home-light-controller-2a659.firebaseio.com",
+    "project_id": "home-light-controller-2a659",
+    "storage_bucket": "home-light-controller-2a659.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918411132742:android:3a9bf14ccf0491d8",
+        "android_client_info": {
+          "package_name": "box.keri.homelightcontrolle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918411132742-a1mg213i10c0s65ulibvnmdl8bdrprn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBclCrbO2CvzS5cftSM6kBCA544SgcGJv4"
+        },
+        {
+          "current_key": "AIzaSyCGZqCa1dT8cxhSrWTmy9ngQQJ1PCa9pog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918411132742:android:9558eb291966e6b8",
+        "android_client_info": {
+          "package_name": "box.keri.homelightcontroller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918411132742-n3n6khk07g81gkir81m2hk8v77ucacjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "box.keri.homelightcontroller",
+            "certificate_hash": "1ef10c8db1a8149c36d9a2b537d726434e0baefe"
+          }
+        },
+        {
+          "client_id": "918411132742-a1mg213i10c0s65ulibvnmdl8bdrprn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBclCrbO2CvzS5cftSM6kBCA544SgcGJv4"
+        },
+        {
+          "current_key": "AIzaSyCGZqCa1dT8cxhSrWTmy9ngQQJ1PCa9pog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918411132742-a1mg213i10c0s65ulibvnmdl8bdrprn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
